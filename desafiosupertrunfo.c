@@ -142,15 +142,15 @@ int main(){
 
         //Resultado da carta ganhadora
         
-        printf("Comparação da carta - Atributo: PIB per Capita\n");
+        printf("**Comparação da carta - Atributo: PIB per Capita**\n");
 
            if (percapita1 > percapita2){
-             printf("A Carta1 (%s) Venceu com R$(%.2f)\n", cidade1, percapita1);  
+             printf("A Carta1 (%s) Venceu com R$ (%.2f)\n", cidade1, percapita1);  
              /* code */
            }else{
-             printf("A Carta 2 (%s) Venceu com R$(%.2f)\n", cidade2, percapita2);
+             printf("A Carta 2 (%s) Venceu com R$ (%.2f)\n", cidade2, percapita2);
         }
-        printf("Comparação da carta - atributo : População");    
+        printf("**Comparação da carta - atributo : População**\n");    
 
              if (populacao1 > populacao2){
              printf("A Carta1 (%s) Venceu com (%lu) habitantes\n", cidade1, populacao1);  
