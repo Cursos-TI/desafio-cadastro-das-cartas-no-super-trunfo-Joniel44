@@ -138,7 +138,7 @@ int main(){
 
         //Comparação entre atributos das cartas
 
-        printf("População: Carta1 venceu (%d)\n", populacao1 > populacao2);
+        printf("População: Resultado para Carta1 vencer: (%d)\n", populacao1 > populacao2);
         printf("Área: Carta1 venceu (%d)\n", area1 > area2);
         printf("PIB: Carta1 venceu (%d)\n", pib1 > pib2);
         printf("Pontos Turísitcos: Carta1 venceu (%d)\n", ptsTur1 > ptsTur2);
