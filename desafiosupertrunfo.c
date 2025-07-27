@@ -54,7 +54,7 @@ int main(){
         printf("Pontos Turísticos: ");
         scanf("%d", &ptsTur1);
 
-               //Cálculos
+               //Cálculos carta 1
        
        densidade1 = (area1 == 0) ? 0.0f : (float)populacao1 / area1;
        float pib1_reais = pib1 * 1000000000.0f;
@@ -64,7 +64,7 @@ int main(){
 
        
 
-               // Impressão formatada
+               // Impressão formatada carta 1
 
         printf("\n--- Dados Informados ---\n");
         printf("Estado: %c\n", estado1);
@@ -110,7 +110,7 @@ int main(){
         printf("Pontos Turísticos: ");
         scanf("%d", &ptsTur2);
 
-                 //Cálculos
+                 //Cálculos carta 2
 
        densidade2 = (area2 == 0) ? 0.0f : (float)populacao2 / area2;
        float pib2_reais = pib2 * 1000000000.0f;
@@ -120,7 +120,7 @@ int main(){
 
 
 
-                // Impressão formatada
+                // Impressão formatada carta 2
 
         printf("\n--- Dados Informados ---\n");
         printf("Estado: %c\n", estado2);
@@ -136,7 +136,7 @@ int main(){
 
        
 
-        //Comparação entre atributos das cartas
+        //Comparação entre atributos das cartas, aqui informará com (1) Verdadeiro e (0) Falso
 
         printf("População: Resultado para Carta1 vencer: (%d)\n", populacao1 > populacao2);
         printf("Área: Carta1 venceu (%d)\n", area1 > area2);
