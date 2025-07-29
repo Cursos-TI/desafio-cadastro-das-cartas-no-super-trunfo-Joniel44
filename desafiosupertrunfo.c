@@ -137,7 +137,7 @@ int main(){
 
         //Comparação entre atributos das cartas, aqui informará com (1) Verdadeiro e (0) Falso
        
-        printf("Caso a carta vencedora vença, o atributo ficará com (1) para verdadeiro e (0) para falso.\n\n");
+        printf("Definição para o vencedor: o atributo ficará com (1) para verdadeiro e (0) para falso.\n\n");
         printf("População: Resultado para Carta1 vencer: (%d)\n", populacao1 > populacao2);
         printf("Área: Carta1 venceu (%d)\n", area1 > area2);
         printf("PIB: Carta1 venceu (%d)\n", pib1 > pib2);
