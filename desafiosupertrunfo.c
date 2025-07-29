@@ -24,11 +24,11 @@ int main(){
     
     int opcao;
        
-
+       printf("##### Bem Vindo ao Jogo de Cartas Super Trunfo #####\n\n");
 
     // Dados da Carta 1
         
-       printf("###Carta 1###\n");
+        printf("###Carta 1###\n\n");
         printf("Preencha as informações abaixo: \n");
 
         printf("Estado (uma letra): ");
@@ -76,7 +76,7 @@ int main(){
         printf("Pontos Turísticos: %d\n", ptsTur1);
         printf("Densidade Populacional: %.2f hab/km²\n", densidade1);    // calculado a densidade populacional
         printf("PIB per Capita: %.2f Reais\n", percapita1);     // calculado o Pib per capito
-        printf("Super Poder: %.2f\n", superpoder1);
+        printf("Super Poder: %.2f\n\n", superpoder1);
 
          
     
@@ -84,7 +84,7 @@ int main(){
 
        // Dados carta 2
 
-        printf("**Carta 2**\n");
+        printf("**Carta 2**\n\n");
         printf("Preencha as informações abaixo: \n");
 
         printf("Estado (uma letra): ");
@@ -132,19 +132,19 @@ int main(){
         printf("Pontos Turísticos: %d\n", ptsTur2);
         printf("Densidade Populacional: %.2f hab/km²\n", densidade2);    // calculado a densidade populacional
         printf("PIB per Capita: %.2f reais\n", percapita2);     // calculado o Pib per capito
-        printf("Super Poder: %.2f\n", superpoder2);
+        printf("Super Poder: %.2f\n\n", superpoder2);
 
-       
 
         //Comparação entre atributos das cartas, aqui informará com (1) Verdadeiro e (0) Falso
-
+       
+        printf("Caso a carta vencedora vença, o atributo ficará com (1) para verdadeiro e (0) para falso.\n\n");
         printf("População: Resultado para Carta1 vencer: (%d)\n", populacao1 > populacao2);
         printf("Área: Carta1 venceu (%d)\n", area1 > area2);
         printf("PIB: Carta1 venceu (%d)\n", pib1 > pib2);
         printf("Pontos Turísitcos: Carta1 venceu (%d)\n", ptsTur1 > ptsTur2);
         printf("Densidade Populacional: Carta2 venceu (%d)\n", densidade1 < densidade2);
         printf("PIB per Capita: Carta1 venceu (%d)\n", percapita1 > percapita2);
-        printf("Super Poder: Carta1 venceu (%d)\n", superpoder1 > superpoder2);
+        printf("Super Poder: Carta1 venceu (%d)\n\n", superpoder1 > superpoder2);
 
 
 
